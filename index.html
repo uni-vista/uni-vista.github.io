@@ -49,6 +49,42 @@
 </head>
 <body>
 
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" target="_blank" href="https://zhuziyu-edward.github.io">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+          More Research
+          </a>
+          <div class="navbar-dropdown">
+          <a class="navbar-item" target="_blank" href="https://sqa3d.github.io/">
+              SQA3D
+          </a>
+          <a class="navbar-item" target="_blank" href="https://3d-vista.github.io/">
+              3D-VisTA
+          </a>
+          <a class="navbar-item" target="_blank" href="https://embodied-generalist.github.io/">
+            LEO
+        </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
@@ -59,11 +95,11 @@
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://zhuziyu-edward.github.io">Ziyu Zhu</a><sup>1,2</sup> &nbsp;&nbsp;&nbsp;
-              <a href="https://zhuziyu-edward.github.io">Zhuofan Zhang</a><sup>1,2</sup> &nbsp;&nbsp;&nbsp;
+              <a href="https://tongclass.ac.cn/author/zhuofan-zhang/">Zhuofan Zhang</a><sup>1,2</sup> &nbsp;&nbsp;&nbsp;
               <a href="https://jeasinema.github.io">Xiaojian Ma</a><sup>2</sup> &nbsp;&nbsp;&nbsp;
-              <a href="https://zhuziyu-edward.github.io">Xuesong Niu</a><sup>2</sup> &nbsp;&nbsp;&nbsp;
-              <a href="https://yixchen.github.io">Yixin Chen</a><sup>1</sup> &nbsp;&nbsp;&nbsp;
-              <a href="https://yixchen.github.io">Baoxiong Jia</a><sup>2</sup> &nbsp;&nbsp;&nbsp;
+              <a href="https://nxsedson.github.io">Xuesong Niu</a><sup>2</sup> &nbsp;&nbsp;&nbsp;
+              <a href="https://yixchen.github.io">Yixin Chen</a><sup>2</sup> &nbsp;&nbsp;&nbsp;
+              <a href="https://buzz-beater.github.io">Baoxiong Jia</a><sup>2</sup> &nbsp;&nbsp;&nbsp;
               <br>
               <a href="https://www.cs.tsinghua.edu.cn/csen/info/1165/4052.htm">Zhidong Deng</a><sup>1&#x1f4e7</sup> &nbsp;&nbsp;&nbsp;
               <a href="https://siyuanhuang.com/">Siyuan Huang</a><sup>2&#x1f4e7;</sup> &nbsp;&nbsp;&nbsp;
@@ -90,7 +126,7 @@
                 </a>
               </span> -->
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2308.04352"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -110,7 +146,7 @@
               </span> -->
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/3d-vista/3D-VisTA"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -248,8 +284,9 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="title is-3"> <img id="painting_icon" width="4%" src="https://img.icons8.com/?size=1x&id=43611&format=png">  Segmentation Results</h3>
+        <h2 class="title is-3"> <img id="painting_icon" width="4%" src="https://img.icons8.com/?size=1x&id=43611&format=png"> Promptable Segmentation Results</h3>
           <hr style="margin-top:0px">
+          <img id="painting_icon" width="100%" src="file/segmentation_prompt.png"> 
           <div class="embed-responsive embed-responsive-16by9">
 
               <iframe style="clip-path: inset(1px 1px)" width="100%" height="100%" src="https://sketchfab.com/playlists/embed?collection=25b7b3544c884c9e8f0ca319c1950bc8&autostart=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -264,10 +301,10 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@inproceedings{3dvista,
-    title={3D-VisTA: Pre-trained Transformer for 3D Vision and Text Alignment},
-    author={Ziyu, Zhu and Xiaojian, Ma and Yixin, Chen and Zhidong, Deng and Siyuan, Huang and Qing, Li},
-    booktitle={ICCV},
+    <pre><code>@inproceedings{uni-vista,
+    title={Uni-VisTA: A Generalist Model for 3D Vision-Language Understanding},
+    author={Ziyu, Zhu and Zhuofan, Zhang and Xiaojian, Ma and Xuesong, Niu and Yixin, Chen and Baoxiong, Jia and Zhidong, Deng and Siyuan, Huang and Qing, Li},
+    booktitle={Arxiv},
     year={2023}
 }</code></pre>
   </div>
